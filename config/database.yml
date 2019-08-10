@@ -1,0 +1,16 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: blog_development
+  url: postgresql://localhost/blog_development?pool=5
+  pool: 5
+  username: blog
+  password: password
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: blog_test
+  pool: 5
+  username: blog
+  password: password
